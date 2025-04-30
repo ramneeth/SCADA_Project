@@ -13,7 +13,7 @@ The project uses synthetic sensor data to predict potential equipment failures u
 - **Database:** PostgreSQL (created using pgAdmin4, queried via SQLAlchemy)
 - **Missing Value Handling:** Interpolation and forward-fill
 - **Outlier Detection:** IQR-based filtering
-- **Model:** Random Forest (scikit-learn)
+- **Model:** Logistic Regression (scikit-learn)
 - **Evaluation Metrics:** Precision, Recall, F1-score, Confusion Matrix
 
 ## Technologies Used
